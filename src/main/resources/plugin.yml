@@ -1,0 +1,8 @@
+name: NyaBase
+main: kawaii.jiyun233.nya.PluginLoader
+version: 0.0.1
+description: a plugin base
+author: jiyun233
+commands:
+  NyaBase:
+    description: Plugin Helper Command.
