@@ -2,7 +2,7 @@
 a base for minecraft bukkit plgin, all kotlin code
 
 ## Command
-````java
+````kotlin
 object ExampleCommand :
     CommandBase(
         "example",
