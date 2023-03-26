@@ -33,3 +33,12 @@ class ExampleListener : EventListener(ListenerPriority.NORMAL, listOf(PacketType
     }
 }
 ````
+
+## Tasks
+````kotlin
+object ExampleTask : AbstractTask(10, async = true) {
+    override fun run() {
+        TODO("Task runs loop")
+    }
+}
+````
