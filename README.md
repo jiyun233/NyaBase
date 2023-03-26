@@ -17,3 +17,19 @@ object ExampleCommand :
     }
 }
 ````
+
+## EventListener
+````kotlin
+class ExampleListener : EventListener(ListenerPriority.NORMAL, listOf(PacketType.Play.Client.CHAT)) {
+    init {
+        onPacketReceive {
+            TODO("On packet receiving runs")
+        }
+    }
+
+    @EventHandler
+    fun onQuit(event: PlayerQuitEvent) {
+        TODO("Other bukkit event listener")
+    }
+}
+````
