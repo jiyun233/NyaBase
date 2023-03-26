@@ -6,3 +6,5 @@ author: jiyun233
 commands:
   NyaBase:
     description: Plugin Helper Command.
+    aliases:
+      - nya

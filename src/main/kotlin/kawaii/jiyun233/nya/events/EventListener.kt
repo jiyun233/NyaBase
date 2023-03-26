@@ -8,6 +8,11 @@ import kawaii.jiyun233.nya.utils.plugin
 import org.bukkit.event.Listener
 import java.util.concurrent.CopyOnWriteArrayList
 
+/**
+ * @param listenerPriority priority of listener
+ * @param packetTypes receive/send packet type listener
+ */
+
 abstract class EventListener @JvmOverloads constructor(
     listenerPriority: ListenerPriority = ListenerPriority.NORMAL,
     packetTypes: Iterable<PacketType> = emptyList()

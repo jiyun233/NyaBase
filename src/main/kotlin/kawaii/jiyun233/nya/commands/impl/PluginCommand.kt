@@ -6,7 +6,7 @@ import kawaii.jiyun233.nya.helper.sendColorMessage
 import kawaii.jiyun233.nya.managers.impl.CommandManager
 import org.bukkit.command.CommandSender
 
-object PluginCommand : CommandBase(PluginName, descriptions = "Plugin Helper Command.") {
+object PluginCommand : CommandBase(PluginName, descriptions = "Plugin Helper Command.", alias = arrayOf("Nya")) {
 
     override fun execute(sender: CommandSender, args: Array<out String>) {
         sender.sendColorMessage("&9$PluginName Helper&d&l -------->>")
